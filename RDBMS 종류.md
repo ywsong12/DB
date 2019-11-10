@@ -5,4 +5,4 @@
 ##### MySQL
 ##### MS-SQL
 ##### DB2
-##### Sybase
+##### Sybas
