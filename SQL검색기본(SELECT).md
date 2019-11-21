@@ -18,7 +18,8 @@ SELECT 바지 FROM 옷장 WHERE 길이 >= 110cm;
 SELECT A마트 FROM 사과 WHERE 색 = "초록색" AND 크기 <= 10;
 ```
 ---
-### 
+### GROUP BY
+- 
 
 
 
