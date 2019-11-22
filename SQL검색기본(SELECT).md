@@ -77,7 +77,7 @@ SELECT SUM(재고) FROM A마트;
 ```
 - 크기가 10cm 이하인 과일들의 재고 평균 수를 구하라
 ```
-SELECT AVG(재고) FROM A마트 WHERE 크기cm <= 10cm;
+SELECT AVG(재고) FROM A마트 WHERE 크기cm <= 10;
 ```
 - 색상이 노란색인 과일들 중 재고가 가장 많은 과일을 찾아라
 ```
