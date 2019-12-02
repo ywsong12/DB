@@ -1,6 +1,6 @@
 # SQL 검색의 기본
-### sql적용 쿼리
-CREATE TABLE A마트 (  
+### sql 생성한 테이블 쿼리
+CREATE TABLE AMart (  
   `납품일자` date NOT NULL,  
   `과일` VARCHAR(50) NOT NULL,  
   `크기cm` VARCHAR(50) NOT NULL,  
@@ -8,7 +8,7 @@ CREATE TABLE A마트 (
   `재고` VARCHAR(50) NOT NULL,  
   PRIMARY KEY (`과일`)  
 ) DEFAULT CHARSET=utf8;  
-INSERT INTO `A마트` (`납품일자`, `과일`,`크기cm`,`색상`, `재고`) VALUES  
+INSERT INTO `AMart` (`납품일자`, `과일`,`크기cm`,`색상`, `재고`) VALUES  
   ('2019-11-01', '사과', '10', '초록색', '3'),  
   ('2019-11-01', '딸기', '3', '빨간색', '5'),  
   ('2019-11-05', '바나나', '15', '노란색', '4'),  
