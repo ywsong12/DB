@@ -48,11 +48,11 @@ INSERT INTO `A마트` (`납품일자`, `과일`,`크기cm`,`색상`, `재고`) V
 #### SELECT, FROM, WHERE 활용 예제
 - A마트에 있는 크기 10cm이상의 과일을 찾아라
 ```
-SELECT 과일 FROM A마트 WHERE 크기 >= 10cm;
+SELECT 과일 FROM AMart WHERE 크기cm >= 10cm;
 ```
 - A마트에서 파는 과일중에 색은 초록색이고 크기는10cm 이하인 것을 찾아라
 ```
-SELECT A마트 FROM 사과 WHERE 색 = "초록색" AND 크기 <= 10;
+SELECT 과일 FROM AMart WHERE 색 = "초록색" AND 크기cm <= 10;
 ```
 
 ---
@@ -73,19 +73,19 @@ SELECT A마트 FROM 사과 WHERE 색 = "초록색" AND 크기 <= 10;
 #### 그룹함수, DISTINCT 활용 예제
 - 모든 과일의 재고수를 구하라
 ```
-SELECT SUM(재고) FROM A마트;
+SELECT SUM(재고) FROM AMart;
 ```
 - 크기가 10cm 이하인 과일들의 재고 평균 수를 구하라
 ```
-SELECT AVG(재고) FROM A마트 WHERE 크기cm <= 10;
+SELECT AVG(재고) FROM AMart WHERE 크기cm <= 10;
 ```
 - 색상이 노란색인 과일들 중 재고가 가장 많은 과일을 찾아라
 ```
-SELECT 과일, 색상, MAX(재고) FROM A마트 WHERE 색상 = '노란색';
+SELECT 과일, 색상, MAX(재고) FROM AMart WHERE 색상 = '노란색';
 ```
 - 크기가 20cm 이상이고 초록색인 과일들 중 재고가 가장 적은 과일을 찾아라
 ```
-SELECT 과일, 색상, MIN(재고) FROM A마트 WHERE 크기cm >= 20 AND 색상 = '초록색';
+SELECT 과일, 색상, MIN(재고) FROM AMart WHERE 크기cm >= 20 AND 색상 = '초록색';
 ```
 ---
 ### GROUP BY
